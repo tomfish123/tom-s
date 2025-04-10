@@ -1,0 +1,1003 @@
+common_para:
+  crc_flag:
+    Bits: '21:21'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 1'h0
+    SWAccess: RW
+  dcrc_info_bit0:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit1:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit10:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit11:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit12:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit13:
+    Bits: '12:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 13'h0
+    SWAccess: RW
+  dcrc_info_bit2:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit3:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit4:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit5:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit6:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit7:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit8:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_bit9:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  dcrc_info_idx:
+    Bits: '29:6'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 24'h0
+    SWAccess: RW
+  dcrc_mode:
+    Bits: '5:5'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 1'h0
+    SWAccess: RW
+  dcrc_num:
+    Bits: '1:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: "2\u2019h0"
+    SWAccess: RW
+  dcrc_reg_ini:
+    Bits: '4:2'
+    Descriptions: None
+    HWAccess: None
+    RestValue: "3\u2018h0"
+    SWAccess: RW
+  il_pattern0:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern1:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern10:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern11:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern12:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern13:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern14:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern15:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern16:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern17:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern18:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern19:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern2:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern20:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern21:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern22:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern23:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern24:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern25:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern26:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern27:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern28:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern29:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern3:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern30:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern31:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern32:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern33:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern34:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern35:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern36:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern37:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern38:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern39:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern4:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern40:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern5:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern6:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern7:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern8:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  il_pattern9:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type0:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type1:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type10:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type11:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type12:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type13:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type14:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type15:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type16:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type17:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type18:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type19:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type2:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type20:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type21:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type22:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type23:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type24:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type25:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type26:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type27:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type28:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type29:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type3:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type30:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type31:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type32:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type33:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type34:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type35:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type36:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type37:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type38:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type39:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type4:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type40:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type41:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type42:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type43:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type44:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type45:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type46:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type47:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type48:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type49:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type5:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type50:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type51:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type52:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type53:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type54:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type55:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type56:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type57:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type58:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type59:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type6:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type60:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type61:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type62:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type63:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type64:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type65:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type66:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type67:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type68:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type69:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type7:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type70:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type71:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type72:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type73:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type74:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type75:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type76:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type77:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type78:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type79:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type8:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type80:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type81:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type82:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type83:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type84:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type85:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type86:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type87:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type88:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type89:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type9:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type90:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type91:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type92:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type93:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type94:
+    Bits: '31:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 32'h0
+    SWAccess: RW
+  jump_type95:
+    Bits: '25:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 26'h0
+    SWAccess: RW
+  leaf_mode:
+    Bits: '18:18'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 1'h0
+    SWAccess: RW
+  list_num:
+    Bits: '20:19'
+    Descriptions: None
+    HWAccess: None
+    RestValue: "2\u2018h0"
+    SWAccess: RW
+  param_a:
+    Bits: '9:2'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 8'h0
+    SWAccess: RW
+  param_k:
+    Bits: '17:10'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 8'h0
+    SWAccess: RW
+  param_n:
+    Bits: '1:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 3'h0
+    SWAccess: RW
+  rm_mode:
+    Bits: '25:24'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 2'h0
+    SWAccess: RW
+  rnti_num:
+    Bits: '23:22'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 2'h0
+    SWAccess: RW
+  rnti_val0:
+    Bits: '15:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 16'h0
+    SWAccess: RW
+  rnti_val1:
+    Bits: '31:16'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 16'h0
+    SWAccess: RW
+  rnti_val2:
+    Bits: '15:0'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 16'h0
+    SWAccess: RW
+  rnti_val3:
+    Bits: '31:16'
+    Descriptions: None
+    HWAccess: None
+    RestValue: 16'h0
+    SWAccess: RW
